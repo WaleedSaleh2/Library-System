@@ -1,16 +1,6 @@
-/*
-Section: 1
-Name: Waleed Saleh Ali Saleh               ID: 202006448
-Name: Najim Abdulkarem Musaed Alfutini     ID: 202003215
-Name: Maged Hussain Masaad Ali             ID: 202004484
-Name: Mohammed Osama Swar                  ID: 202005284
-Name: Ali Abdulkarim ebrahim               ID: 202007506
-*/
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 public class LibraryMain {
-
-
     public static void main(String[] args) {
         Scanner kbd = new Scanner(System.in);
         LibrarySystem system = new LibrarySystem();
@@ -188,12 +178,6 @@ public class LibraryMain {
         kbd.close();  
 
         System.out.println("------------------< End Library Main >-------------------");
-        System.out.println("""
-                Name: Maged Hussain Masaad Aljashoobi      ID: 202004484
-                Name: Waleed Saleh Ali Saleh               ID: 202006448
-                Name: Najim Abdulkarem Musaed Alfutini     ID: 202003215
-                Name: Mohammed Osama Swar                  ID: 202005284
-                Name: Ali Abdulkarim ebrahim               ID: 202007506""");
         System.out.println("------------------< End Library Main >-------------------");
 
     } // end main method
